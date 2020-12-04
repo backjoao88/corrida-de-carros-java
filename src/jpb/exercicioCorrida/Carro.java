@@ -23,7 +23,7 @@ public class Carro extends Thread {
 		}
 	}
 
-	public void pitStop(long tempoPitStop) {
+	public synchronized void pitStop(long tempoPitStop) {
 		try {
 			Thread.sleep(tempoPitStop);
 		} catch (InterruptedException e) {
