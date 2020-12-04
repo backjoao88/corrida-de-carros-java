@@ -9,7 +9,7 @@ public class Ex {
 
 		try (BufferedReader buff = new BufferedReader(new InputStreamReader(System.in));) {
 
-			Carro[] carros = new Carro[3];
+			Carro[] carros = new Carro[5];
 			for (int k = 0; k < carros.length; k++) {
 				System.out.print("Informe o nome do piloto " + (k + 1) + ": ");
 				String nome = buff.readLine();
